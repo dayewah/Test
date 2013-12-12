@@ -22,4 +22,8 @@ git diff 						- 		compares working dir to staged area.
 git diff --staged				-		compares staged area to repository
 
 git commit -a -m "message"		-		skips git add for tracked file. Commits all tracked files automatically adding unstaged files first.
+
+git log							- 		view history of commits
+git log -p						-		show the log and the corresponding diff
+git log -2						-		shows the last 2 log entries
 ```
