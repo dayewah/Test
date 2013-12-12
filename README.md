@@ -1,6 +1,4 @@
-# This is my README
-
-Some useful Git commands
+#Some useful Git commands
 
 Initial Setup
 ```
@@ -10,18 +8,20 @@ git config --global user.name "Daniel Ayewah"	-		sets the user name
 ```
 
 Working with Git
+----------------
+After a file is modified it is necessary to run git add again in order to stage it for the next commit. 
+The command git commit adds the version of the file that existed when you sent the command git add i.e. the staged version. 
+If the file is modified after git add you have to run git add again to stage the latest version of the file.
 ```
 git init				 		- 		creates a new repo
 git add ReadMe.md				- 		adds readme file to files staged for next commit
 git commit -m "message"			-		perform a commit with a message
 git status						-		shows the current status of files
+```
 
-After a file is modified it is necessary to run git add again in order to stage it for the next commit.
-
-git commit adds the version of the file that existed when you sent the command git add i.e. the staged version. 
-
-If the file is modified after git add you have to run git add again to stage the latest version of the file.
-
+Checking History
+----------------
+```
 git diff 						- 		compares working dir to staged area.
 git diff --staged				-		compares staged area to repository
 
@@ -33,6 +33,7 @@ git log -2						-		shows the last 2 log entries
 ```
 
 Remote Operations
+----------------
 ```
 git remote						-		lists all remote repositories associated with this repo
 git remote -v					-		probably verbose...lists them with their full path
