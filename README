@@ -20,4 +20,6 @@ If the file is modified after git add you have to run git add again to stage the
 
 git diff 						- 		compares working dir to staged area.
 git diff --staged				-		compares staged area to repository
+
+git commit -a -m "message"		-		skips git add for tracked file. Commits all tracked files automatically adding unstaged files first.
 ```
