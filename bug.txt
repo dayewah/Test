@@ -1,0 +1,4 @@
+total 20
+-rw-------    1 u0_a178  u0_a178       1486 Aug  9 18:36 README.md
+-rw-------    1 u0_a178  u0_a178          0 Aug 10 18:57 bug.txt
+-rw-------    1 u0_a178  u0_a178         19 Aug  9 20:16 temp.txt
